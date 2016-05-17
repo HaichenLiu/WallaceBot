@@ -6,6 +6,8 @@
 var express = require('express')
   , routes = require('./routes');
 
+var webhook = require('./routes/webhook.js');
+
 var app = module.exports = express.createServer();
 
 // Configuration
@@ -30,6 +32,7 @@ app.configure('production', function(){
 // Routes
 
 app.get('/', routes.index);
+app.get('/webhook', webhook.webhook);
 
 app.listen(3000, function(){
   console.log("Express server listening on port %d in %s mode", app.address().port, app.settings.env);
