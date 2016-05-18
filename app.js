@@ -26,7 +26,7 @@ var register = function (app) {
 };
 var options = {
   key: fs.readFileSync('./ssl/server-key.pem'),
-  cert: fs.readFileSync('server-cert.pem')
+  cert: fs.readFileSync('./ssl/server-cert.pem')
 };
 var https = express.createServer(options);
 register(https);
