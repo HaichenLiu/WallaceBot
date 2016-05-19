@@ -1,0 +1,34 @@
+{
+  "name": "WallaceBot",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "2.5.8",
+    "jade": ">= 0.0.1"
+  },
+  "description": "ERROR: No README data found!",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HaichenLiu/WallaceBot.git"
+  },
+  "author": "Haichen",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/HaichenLiu/WallaceBot/issues"
+  },
+  "dependencies" :{ 
+    "express" : "2.5.8"
+  , "fs" : "0.0.2"
+  , "https" : "1.0.0"
+  , "jade" : "1.11.0"
+  , "pem" : "1.8.3"
+  , "start" : "4.0.1"
+  }
+}
+
